@@ -12,7 +12,7 @@ export default function About() {
         startDelay: 300,
         typeSpeed: 120,
         backSpeed: 50,
-        backDelay: 150,
+        backDelay: 1000,
         loop: true
       });
   
@@ -30,7 +30,7 @@ export default function About() {
             Hi, I'm Edward.
             <br className="hidden lg:inline-block" />I am a <span ref={el}></span>
           </h1>
-          <p className="mb-8 leading-relaxed text-2xl">
+          <p className="mb-8 leading-relaxed text-xl">
             I am currently a senior studying <span className = "text-green-500 font-semibold">Information Systems</span> at Carnegie Mellon University. I am passionate in creating 
             innovative solutions that will make positive impact on this world. 
           </p>

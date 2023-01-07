@@ -12,23 +12,28 @@ export default function Navbar() {
         </a>
         <ul className="hidden md:flex font-semibold">
             <li className="float-left">
-                <a className="flex cursor-pointer items-center gap-1 rounded-sm px-2 py-1 mt-2 capitalize decoration-indigo-500 decoration-2 underline-offset-1 transition   duration-300 ease-in-out">
+                <a href="#profile" className="flex cursor-pointer items-center gap-1 rounded-sm px-2 py-1 mt-2 capitalize decoration-indigo-500 decoration-2 underline-offset-1 transition   duration-300 ease-in-out">
                     <span className="mr-5 transition duration-150 ease-in-out hover:text-green-500">About</span>
                 </a>
             </li>
             <li className="float-left">
-                <a className="flex cursor-pointer items-center gap-1 rounded-sm px-2 py-1 mt-2 capitalize decoration-indigo-500 decoration-2 underline-offset-1 transition   duration-300 ease-in-out">
+                <a href="#skills" className="flex cursor-pointer items-center gap-1 rounded-sm px-2 py-1 mt-2 capitalize decoration-indigo-500 decoration-2 underline-offset-1 transition   duration-300 ease-in-out">
                     <span className="mr-5 transition duration-150 ease-in-out hover:text-green-500">Experience</span>
                 </a>
             </li>
             <li className="float-left">
-                <a className="flex cursor-pointer items-center gap-1 rounded-sm px-2 py-1 mt-2 capitalize decoration-indigo-500 decoration-2 underline-offset-1 transition   duration-300 ease-in-out">
+                <a href="#projects" className="flex cursor-pointer items-center gap-1 rounded-sm px-2 py-1 mt-2 capitalize decoration-indigo-500 decoration-2 underline-offset-1 transition   duration-300 ease-in-out">
                     <span className="mr-5 transition duration-150 ease-in-out hover:text-green-500">Projects</span>
                 </a>
             </li>
             <li className="float-left">
-                <a className="flex cursor-pointer items-center gap-1 rounded-sm px-2 py-1 mt-2 capitalize decoration-indigo-500 decoration-2 underline-offset-1 transition   duration-300 ease-in-out">
+                <a href="#contact" className="flex cursor-pointer items-center gap-1 rounded-sm px-2 py-1 mt-2 capitalize decoration-indigo-500 decoration-2 underline-offset-1 transition   duration-300 ease-in-out">
                     <span className="mr-5 transition duration-150 ease-in-out hover:text-green-500">Contact</span>
+                </a>
+            </li>
+            <li className="float-left">
+                <a href="https://docs.google.com/document/d/1v2XAcbQ1GWHr4cUzEwsoptYi7jRVpItfAP0QkP-8_Y4/edit?usp=sharing" className="flex cursor-pointer items-center gap-1 rounded-md px-2 py-1 mt-2 capitalize decoration-indigo-500 decoration-2 underline-offset-1 transition duration-300 ease-in-out border-2 border-green-500 hover:bg-green-500 p-2 text-green-500 hover:text-white">
+                    <span className="">Resume</span>
                 </a>
             </li>
         </ul>

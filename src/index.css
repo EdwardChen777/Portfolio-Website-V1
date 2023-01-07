@@ -15,3 +15,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 230px;
+  /* transition-duration: 3s;
+  transition-timing-function: ease-in-out; */
+}
+
+.content-div:hover {
+  background-image: linear-gradient(
+    to right,
+    rgba(94,194,105,0.8),
+    rgba(94,194,105,0.8)
+    /* hsla(150, 82%, 74%, 0.8) */
+  )!important;
+  /* background-image: rgba(94,194,105,0.8) !important; */
+}
