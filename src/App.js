@@ -11,6 +11,7 @@ import Profile from "./components/Profile";
 
 
 export default function App() {
+  
   return (
     <main className="text-slate-50 bg-metal body-font">
       <Navbar />

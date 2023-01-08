@@ -3,6 +3,8 @@ import WorkIm from '../assets/workImg.jpeg'
 // import RealEst from '../public/realestate.jpg'
 import RealEst from '../assets/realestate.jpg'
 import Insider from '../assets/insider.png'
+import Healome from '../assets/healome.png'
+import Openup from '../assets/open-up.png'
 
 export const data=[
     {
@@ -18,8 +20,8 @@ export const data=[
         id:2,
         name:"Healome Web App",
         description: "An full-stack app that stores user information and provide subscription based services",
-        image:RealEst,
-        github:"",
+        image:Healome,
+        github:"https://github.com/EdwardChen777/HealomeWebApp",
         live:"",
         youtube:"",
     },
@@ -36,7 +38,7 @@ export const data=[
         id:4,
         name:"Open Up Pittsburgh",
         description: "A web application for minority-owned Pittsburgh business",
-        image:RealEst,
+        image:Openup,
         github:"",
         live:"",
         youtube:"",
