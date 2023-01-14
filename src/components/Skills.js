@@ -22,24 +22,24 @@ export default function Skills() {
           </p> */}
         </div>
         {/* lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2  */}
-        <div className="grid grid-cols-2 text-lg gap-3">
-            <div data-aos="fade-right" className="grid justify-items-end text-green-500">01</div>
-            <div data-aos="fade-right">
+        <div className="grid grid-cols-6 text-lg gap-3">
+            <div data-aos="fade-right" className="grid justify-items-center text-green-500 col-start-3 col-end-4 font-bold">01</div>
+            <div data-aos="fade-right" className="grid col-start-4 col-end-6">
                 <h1><span>Software Developer</span> @ Healome</h1>
                 <h2>June - Aug 2022</h2>
             </div>
-            <div data-aos="fade-left" className="grid justify-items-end text-green-500">02</div>
-            <div data-aos="fade-left">
+            <div data-aos="fade-left" className="grid justify-items-center text-green-500 col-start-3 col-end-4 font-bold">02</div>
+            <div data-aos="fade-left" className="grid col-start-4 col-end-6">
                 <h1><span>Project Manager</span> @ re:Bloom</h1>
                 <h2>Sep 2021 - Aug 2022</h2>
             </div>
-            <div data-aos="fade-right" className="grid justify-items-end text-green-500">03</div>
-            <div data-aos="fade-right">
+            <div data-aos="fade-right" className="grid justify-items-center text-green-500 col-start-3 col-end-4 font-bold">03</div>
+            <div data-aos="fade-right" className="grid col-start-4 col-end-6">
                 <h1><span>Software Developer</span> @ Sustainible</h1>
                 <h2>Jan 2022 - Apr 2022</h2>
             </div>
-            <div data-aos="fade-left" className="grid justify-items-end text-green-500">04</div>
-            <div data-aos="fade-left">
+            <div data-aos="fade-left" className="grid justify-items-center text-green-500 col-start-3 col-end-4 font-bold">04</div>
+            <div data-aos="fade-left" className="grid col-start-4 col-end-6">
                 <h1><span>Research Assistant</span> @ CMU Tepper School of Business</h1>
                 <h2>Jan 2022 - Apr 2022</h2>
             </div>
